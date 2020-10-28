@@ -1,18 +1,9 @@
 import React from "react";
 import "./ImagePreview.css";
 import IconButton from "./IconButton";
+import FavoriteImage from "./FavoriteImage";
 
 export default function ImagePreview({ src, alt, author, id }) {
-  // function addFavourites(id) {
-  //   const oldFavourites = JSON.parse(
-  //     localStorage.getItem("favourites") || "[]"
-  //   );
-  //
-
-  //   const newFavourites = [...oldFavourites, id];
-  //   localStorage.setItem("favourites", JSON.stringify(newFavourites));
-  // }
-
   return (
     <div className="imageContainer">
       <IconButton
