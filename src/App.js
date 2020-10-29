@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import ImagePreview from "./components/ImagePreview";
 import { getRandomImage } from "./api/getRandomImage";
+import FavoriteImage from "./components/FavoriteImage";
 
 function App() {
   const [randomImage, setRandomImage] = useState(null);
@@ -22,6 +23,8 @@ function App() {
           author={randomImage.user.name}
         />
       )}
+
+      <FavoriteImage photoId={"lZgBFD8yShA"} />
     </main>
   );
 }

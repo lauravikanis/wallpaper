@@ -1,9 +1,16 @@
 .imageContainer {
   margin: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
   align-items: center;
+  position: relative;
 }
+.imageContainer > .icon-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
 .imageThumb {
   height: 250px;
   width: 250px;
