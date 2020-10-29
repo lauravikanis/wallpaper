@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImagePreview.css";
 import IconButton from "./IconButton";
-import FavoriteImage from "./FavoriteImage";
+// import FavoriteImage from "./FavoriteImage";
 
 export default function ImagePreview({ src, alt, author, id }) {
   return (
